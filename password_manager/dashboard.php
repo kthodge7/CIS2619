@@ -42,27 +42,30 @@ $result = mysqli_stmt_get_result($stmt);
         }
     </style>
 </head>
+
 <body class="bg-gray-50">
     <div class="min-h-screen">
         <!-- Navigation Bar -->
-        <nav class="bg-white shadow-lg">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="flex justify-between h-16">
-                    <div class="flex items-center">
-                        <h1 class="text-xl font-bold">Password Manager</h1>
-                    </div>
-                    <div class="flex items-center space-x-4">
-                        <span class="text-gray-600">
-                            <?php echo htmlspecialchars($_SESSION["email"]); ?>
-                        </span>
-                        <a href="logout.php" class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">
-                            Logout
-                        </a>
-                    </div>
-                </div>
+<nav class="bg-white shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-16">
+            <div class="flex items-center">
+                <h1 class="text-xl font-bold">Password Manager</h1>
             </div>
-        </nav>
-
+            <div class="flex items-center space-x-4">
+                <a href="help.php" class="text-blue-600 hover:text-blue-800">
+                    Help
+                </a>
+                <span class="text-gray-600">
+                    <?php echo htmlspecialchars($_SESSION["email"]); ?>
+                </span>
+                <a href="logout.php" class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">
+                    Logout
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
         <!-- Main Content -->
         <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
             <!-- Add New Password Button -->
