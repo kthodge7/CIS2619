@@ -1,22 +1,18 @@
 1. Frontend design - html/css
-Chris:
-Allow users to register and login: Implement user registration and login logic, including checks for duplicate accounts and enforcing password complexity requirements.
-Password authentication and lockout: Implement authentication, handle failed login attempts, and lockout mechanisms.
-Password display: Work on displaying the list of passwords in a table with options to reveal them securely.
-This person will handle the core registration, login, and database connectivity logic.
+Chris: 
+Create html/css design for user-facing webpages
 
 2. Under the hood frontend/linking to database
 Kelsey:
-Push/pull data to/from SQL Database: Work on integration between the web server and the SQL database for managing user credentials.
-Password management: Handle the functionality for users to add, update, delete, copy, and organize passwords.
-Query password entries: Implement search functionality for querying password entries.
-This person will focus on the features surrounding password vault functionality.
+Push/pull data to/from SQL Database: Work on integration between the web front end and 
+the SQL database for managing user credentials. Handle the functionality for users to 
+add, update, delete, copy, and organize passwords. Query password entries: Implement 
+search functionality for querying password entries.
 
-3. Database/Backend
+3. Database
 Ash:
-Database design: Set up and manage the database (tables like User, Password, Authentication) and ensure the SQL database is optimized for the application.
-Program design structural components: Design classes (e.g., User Class, Password Class) and functions for managing users and passwords.
-This person will handle the back-end and security-related tasks, ensuring data protection and integrity.
+Database design: Set up and manage the database (tables like User, Password, Authentication) 
+and ensure the SQL database is optimized for the application.
 
 4. Help Documentation, Security Measures
 Ryan:
@@ -24,5 +20,5 @@ Help documentation: Create user instructions for registration, login, password m
 Mockups: Design mockups for the Create Account, Login, and Password Vault pages, ensuring the UI/UX is clear and user-friendly.
 FAQs Page: Develop the FAQs page with common questions and troubleshooting steps.
 Security measures: Implement encryption (hashed AES-256, end-to-end), enforce HTTPS, and manage user password strength checks.
-This person will focus on the documentation and frontend design, ensuring that the application is intuitive for users.
+
 
